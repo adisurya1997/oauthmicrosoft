@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Sign in</h5>
+        <p class="text-center">Use your Microsoft account to sign in.</p>
+        <a href="{{ auth_url }}" class="btn btn-primary btn-block">Sign in with Microsoft</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
