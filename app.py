@@ -7,11 +7,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Replace these values with your application's details
-CLIENT_ID = 'c468c3dc-0559-41d5-a0c5-9c9e5a7d1a35'
-CLIENT_SECRET = '8v78Q~b2jp0-tmDdE2REGC46hYs4N4f~n-gekauS'
-TENANT_ID = '65b908be-db42-4118-8a9e-dfaa849664c9'
-AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
-REDIRECT_URI = 'http://localhost:5015/getAToken'
+
 
 SCOPE = ["User.Read"]  # Scope for Microsoft Graph API
 
